@@ -31,12 +31,7 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-Although the CodePath video tutorials were fairly straightforward, I had an issue with a NullPointerException during the execution of the EditActivity.java file.
-
-The first thing I did was check Logcat in Android Studio while I ran the Emulator, and see the exception that was being logged when I clicked an item to be edited. This referenced that the error was located in EditActivity.java, in the setText() function. I began validating that all the variables had been initialized with a value, and once completed, I check the variable name 'etItem' against the application's Design panel.
-
-The issue turned out to be the etItem variable being named etText instead. I corrected the variable name and the application ran flawless, allowing the user to edit any items on the list and save successfully.
+N/A
 
 ## License
 
