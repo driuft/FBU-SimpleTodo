@@ -1,0 +1,2 @@
+rootProject.name = "FBU-SimpleTodo"
+include ':app'
